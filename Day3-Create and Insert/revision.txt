@@ -1,0 +1,87 @@
+E-R Model
+1) Entity-object
+2) Attribute-properties
+5 types
+1) Key attribute
+2) Single 
+3) Multivalued
+4) Composite
+5) Derived
+
+3) Relation
+
+4) Mapping cardinalilies(Relational MOdel)
+1:1
+1:M
+M:1
+M:N
+-----------------------
+To perform CRUD operation on Database inside DBMS we does by using SQL
+------------------------
+SQL types
+1) DDL-(Data Definition langauage)
+create,alter,drop,rename,truncate
+2) DML-Data Manipulation Language
+insert,update,delete
+3) DQL-Data Query Language
+select
+4) DCL-Data Control Language
+grant,revoke
+5) TCL-Transaction control Language
+commit,savepoint,rollback
+------------------------------------
+
+
+-- syntax create db
+-- create database database_name
+
+create database db1;
+
+-- syntax create table
+
+create table table_name
+(
+colname1 datatype,
+colname2 datatype,
+colname3 datatype
+);
+
+Data Types-
+Number-int,float,bigint,decimal(5,3)
+String-char(size),varchar(size) -enclosed within quotes
+Date-date('yyyy-mm-dd'), datetime('yyyy-mm-dd hh-mm-ss')-enclosed within quotes
+Blob-nchar,nblob(images)
+Boolean-true,false
+
+
+create table login
+(
+username varchar(30),
+password varchar(50)
+);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
