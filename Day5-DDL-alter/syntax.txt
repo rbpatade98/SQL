@@ -1,0 +1,34 @@
+alter syntax
+
+-- alter add new column
+alter table tbname add newcolname dt;
+alter table tbname add(newcolname1 dt,newcolname2 dt,...);
+alter table tbname add newcolname dt first;
+alter table tbname add newcolname dt after exisitingcolname;
+
+-- alter drop column
+alter table tbname drop exisitingcolname;
+
+-- alter modify(changing datatype of column)
+alter table tbname modify exisitingcolname newdatatype;
+
+-- alter change(renaming column name)
+alter table tbname change exisitingcolname newcolumnname old/newdatatype;
+
+-- alter rename(renaming table name)
+alter table oldtablename rename newtablename;
+
+-- rename
+rename table oldtablename to newtablename;
+
+-- drop
+drop database existingdbname;
+drop table existingtablename;
+
+
+-- truncate
+truncate existingtablename;
+truncate table existingtablename;
+
+
+

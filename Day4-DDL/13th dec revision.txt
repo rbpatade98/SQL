@@ -1,0 +1,85 @@
+SQL-Statically Type Language (data type compulsory)
+-----------------------------
+show databases;
+create database db_name;
+use db_name;
+select database();
+------------------------
+show tables;
+--------------------------
+Data Types:
+Number-int,bigint,float,decimal(5,3)
+String-char(size),varchar(size)
+Date-date('yyyy-mm-dd'),datetime('yyyy-mm-dd hh-mm-ss')
+blog-nchar(),nblog
+boolean-true,false
+-------------------------
+
+create table tb_name
+(
+colname dt,
+colname dt,
+--
+--
+colname dt
+);
+
+---------------------
+describe tb_name;
+desc tb_name;
+---------------
+select * from tb_name;
+------------------
+SQL TYpes
+1) DDL-create,alter,drop,rename,truncate
+2) DML-insert,update,delete
+3) DQL-select
+4) DCL-grant,revoke
+5) TCL-commit,savepoint,rollback
+
+
+-- insert syntax
+insert into tb_name(colname1,colname2,...) values(val1,val2,...);
+insert into tb_name values(val1,val2,...); 
+insert into tb_name values(val1,val2,...),(val1,val2,...),(val1,val2,...);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
