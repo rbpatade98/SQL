@@ -1,0 +1,24 @@
+Update Syntax
+
+update table tablename set colname=value;
+update table tablename set colname=value where condition;
+update table tablename set col1name=value,col2name=value where condition;
+update table tablename set colname=value where condition1 and/or condition2;
+update table tablename set colname=value where colname in(vale,val2,val3);
+
+----------------------------
+Operators=it is symbol/special char used to perform some operators on operands 
+which can be one or more than one
+
+Types-Unary(plus,minus,not) and Binary(+,*,>..)
+
+1) Arithmatic- +,-,*,/,%
+2) Relational/Comparison/Conditional- >,<,>=,<=,=,!=
+3) Logical- and,or,not
+4) Range (between)
+5) List (in,not in)
+6) Like (%,_)
+7) is null,is not null
+
+
+
